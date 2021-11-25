@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: small;
+    font-family: sans-serif;
+    background-color: rgba(230, 238, 227, 0.966);
+}
+hr{
+    border: 10px solid rgb(66, 41, 146);
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+#required{
+    color: Red;
+}
+div{
+    background-color: white;
+    box-shadow: thistle;
+    border-radius: 2px;
+    padding: 5px;
+}
+#male,#female{
+    margin: 10px;
+}
+.food{
+    margin: 10px;
+}
+#submit{
+    background-color: rgb(66, 41, 146);
+}
+::placeholder{
+    font-size: small;
+}
